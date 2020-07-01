@@ -1,0 +1,92 @@
+
+
+.about_picture{
+    width:30%;
+    height: 400px;
+    margin-top:105px;
+    float: left;
+    overflow: hidden;
+    dsplay:block;
+}
+.about_picture img{
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-right: 70px;
+}
+.about_middle_content{
+    width:70%;
+    height: 400px;
+    margin-top: 100px;
+    float: right;
+}
+.about_content{
+    width:600px;
+    height:100px;
+    background-color: silver;
+    padding: 20px;
+}
+.about_content p{
+    font-size: 16px;
+    color:#FFF;
+}
+.about_picture h4{
+    margin-left: 130px;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.facebook-icon img{
+width: 40px;
+height: 40px;
+float: left;
+margin-left: 6px;
+margin-top: 8px;
+display: block;
+overflow: hidden;
+cursor:pointer;
+}
+.twitter-icon img{
+width: 44px;
+height: 44px;
+float: left;
+
+margin-left: 6px;
+margin-top: 6px;
+display: block;
+overflow: hidden;
+cursor:pointer;
+}
+.linkedin-icon img{
+width: 40px;
+height: 40px;
+float: left;
+
+margin-left: 6px;
+margin-top: 6px;
+display: block;
+overflow: hidden;
+cursor:pointer;
+}
+.google-plus-icon img{
+width: 40px;
+height: 40px;
+float: left;
+
+margin-left: 6px;
+margin-top: 6px;
+display: block;
+overflow: hidden;
+cursor:pointer;
+}
+.pinterest-icon img{
+width: 42px;
+height: 42px;
+float: left;
+
+margin-left: 6px;
+margin-top: 6px;
+display: block;
+overflow: hidden;
+cursor:pointer;
+}

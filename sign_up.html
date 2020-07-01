@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="sign_up.css">
+	<link rel="shortcut icon" href="img/sign.png" type="image/x-icon">
+</head>
+<body>
+	<div class="main">
+		<form action="" method="post">
+			<fieldset style="background-color: #FFF; border-radius: 5px;">
+				<legend style="text-align: center; font-size: 120%; font-family: Arial;">Registration Form</legend>
+				<form class="mainform">
+					<label for="fname">Full Name</label>
+						<br><input type="text" name="name" ><br>
+					
+					<label for="mail">Email</label>
+						<br><input type="email" name="email" required><br>
+					
+					<label for="pword">Password</label> 
+						<br><input type="password" name="password" required>
+					
+					<label for="dob">Date of Birth</label>
+						<br><input type="date" name="dob"><br>
+					
+					<label for="gender">Gender: </label>
+							<input type="radio" name="gender" value="male" style="margin-top: 2%;"><label>Male</label>
+							<input type="radio" name="gender" value="female"> <label>Female</label> <br>
+					
+					<label for="number">Phone Number</label>
+						<br><input type="number" name="pnumber"><br>
+					
+					<label for="address">Address</label>
+						<br><textarea name="message" rows="2" cols="60"  placeholder="Enter Your Address" style="width: 99%;"></textarea><br>
+					
+					<label for="religion">Religion</label><br>
+						<select name="cars">
+							<option value="">Choose your religion</option>
+							<option value="">Islam</option>
+							<option value="">Hindu</option>
+							<option value="">Christian</option>
+							<option value="">Buddhist</option>
+						</select>
+					
+					<input type="checkbox" name="vehicle1" value="Bike" style="margin-top: 2%;"> I agree all the terms and conditions
+					
+					<input type="submit" value="Submit">
+
+				</form>
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>

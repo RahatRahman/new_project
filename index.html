@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Demo</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script type="text/javascript">
+		var image1 = new Image()
+		image1.src="img/cover.jpg"
+		var image2 = new Image()
+		image2.src="img/cover1.jpg"
+		var image3 = new Image()
+		image3.src="img/cover2.jpg"
+		var image4 = new Image()
+		image4.src="img/cover3.jpg"
+		var image5 = new Image()
+		image5.src="img/cover4.jpg"
+	</script>
+
+</head>
+<body class="body">
+	<header  class="mainHeader" >
+			<img src="img/cover.jpg" name="slideshow" alt="imageSlideshow">
+			<script type="text/javascript">
+				var numberImage = 1
+				function myslide(){
+					document.images.slideshow.src=eval("image"+numberImage+".src")
+					if (numberImage < 5) 
+						numberImage = numberImage + 1;
+					
+					else
+						numberImage = 1;
+						setTimeout("myslide()", 3000);
+
+				}
+				myslide();
+			</script>
+
+		<nav>
+			<ul>
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">Contact</a></li>
+				<li style="float: right; margin-right: 2%;"><a href="sign_up.html"> Sign up   </a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="mainContent">
+		<div class="content">
+			<article class="topcontent">
+				<header>
+					<h2><a href="#" title="First post">First post (Video)</a></h2>
+				</header>
+				<footer>
+					<p class="post-info">This post is written by Rahat</p>
+				</footer>
+				<video width="100%" controls>
+					<source src="abc.mp4" type="video/mp4">
+				</video>
+
+				<!-- <content>
+					<p>It is better to lead from behind and to put others in front, especially when you celebrate victory when nice things occur. You take the front line when there is danger. Then people will appreciate your leadership.</p><p>It is better to lead from behind and to put others in front, especially when you celebrate victory when nice things occur. You take the front line when there is danger. Then people will appreciate your leadership.</p>
+				</content> -->
+
+			</article>
+
+			<article class="bottomcontent">
+				<header>
+					<h2><a href="#" title="Second post">Second post (Youtube video)</a></h2>
+				</header>
+				<footer>
+					<p class="post-info">This post is written by Rahat</p>
+				</footer>
+
+				<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/v-4rYf0x-F4?rel=0" frameborder="0" allowfullscreen>
+				</iframe>
+
+				<!-- <content>
+					<p>It is better to lead from behind and to put others in front, especially when you celebrate victory when nice things occur. You take the front line when there is danger. Then people will appreciate your leadership.</p><p>It is better to lead from behind and to put others in front, especially when you celebrate victory when nice things occur. You take the front line when there is danger. Then people will appreciate your leadership.</p>
+				</content> -->
+
+			</article>
+		</div>
+	</div>
+
+	<aside class="top-sidebar">
+		<article>
+			<h2>Top sidebar</h2>
+			<marquee width="100%">NEW_IPHONE_6_REMIX-ringtone</marquee>
+			<audio controls style="width: 100%; margin-left: 0;">
+				<source src="tone.mp3" type="audio/mpeg">
+			</audio>
+		</article>
+	</aside>
+	<aside class="middle-sidebar">
+		<article>
+			<h2>Middle sidebar</h2>
+			<p>It is better to lead from behind and to put others in front.</p>
+		</article>
+	</aside>
+	<aside class="bottom-sidebar">
+		<article>
+			<h2>Bottom sidebar</h2>
+			<p>It is better to lead from behind and to put others in front.</p>
+		</article>
+	</aside>
+
+	<footer class="mainFooter">
+		<p>Copyright &copy; 2016 <a href="http://www.gmail.com" title="Mahmudur Rahman Rahat">mahmudur665.com</a></p>
+	</footer>
+</body>
+</html>
